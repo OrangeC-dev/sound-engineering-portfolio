@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Sound Capsule | Cassio Figueiredo</title>
+  <meta name="description" content="Sound Capsule is an interactive archive preserving soundscapes through field recording, storytelling and interactive design.">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="../index.html" aria-label="Cassio Figueiredo home">
+        <span>Cassio</span>
+        <span>Figueiredo</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="is-active" href="../work.html">Work</a>
+        <a href="../index.html#about">About</a>
+        <a href="../reel.html">Reel</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a class="is-active" href="../work.html">Work</a>
+      <a href="../index.html#about">About</a>
+      <a href="../reel.html">Reel</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="project-detail sound-capsule-project">
+      <section class="project-hero">
+        <div class="container">
+          <a class="back-link" href="../work.html">Back to work</a>
+
+          <div class="project-hero-grid sound-hero-grid">
+            <div>
+              <p class="eyebrow">Interactive Archive</p>
+              <h1>Sound Capsule</h1>
+
+              <p class="intro">
+                Preserving the soundscapes of places through field recording,
+                storytelling and interactive design.
+              </p>
+            </div>
+
+            <div class="sound-capsule-logo-visual">
+              <img src="../assets/images/sound-capsule-logo.png" alt="Sound Capsule logo">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sound-demo-section" id="mini-sound-capsule">
+        <div class="container sound-demo-layout">
+          <div class="sound-demo-copy">
+            <p class="eyebrow">Live Demo</p>
+            <h2>Mini Sound Capsule</h2>
+
+            <p>
+              A compact version of Sound Capsule featuring four field recordings
+              from Dublin. Select a featured recording to explore and play its
+              sound.
+            </p>
+
+            <a class="text-link" href="#featured-recordings">Explore the demo &rarr;</a>
+          </div>
+
+          <div class="sound-demo-shell" data-sound-demo aria-label="Mini Sound Capsule demo">
+            <div class="sound-map-placeholder sound-map" aria-label="Recording location map">
+              <img src="../assets/images/sound-capsule-dublin-map.jpg" alt="Dark map of Dublin showing Sound Capsule recording locations">
+
+              <button class="sound-map-pin is-active" style="--pin-left: 22.3%; --pin-top: 61.1%;" type="button" data-sound-location data-sound-index="0" aria-label="Select St Patrick’s Park version 1"></button>
+
+              <button class="sound-map-pin" style="--pin-left: 24.7%; --pin-top: 58.4%;" type="button" data-sound-location data-sound-index="1" aria-label="Select St Patrick’s Park version 2"></button>
+
+              <button class="sound-map-pin" style="--pin-left: 26.1%; --pin-top: 46.3%;" type="button" data-sound-location data-sound-index="2" aria-label="Select Smithfield Luas Stop"></button>
+
+              <button class="sound-map-pin" style="--pin-left: 32.6%; --pin-top: 55.4%;" type="button" data-sound-location data-sound-index="3" aria-label="Select Drury Street summer evening"></button>
+            </div>
+
+            <div class="sound-demo-player">
+              <p class="sound-demo-count" data-sound-count>1 of 4</p>
+              <p class="sound-demo-category" data-sound-category>Parks</p>
+              <h3 data-sound-title>St Patrick’s Park</h3>
+              <p data-sound-subtitle>Version 1 – Park Ambience</p>
+
+              <p class="sound-demo-description" data-sound-description>
+                Natural park ambience with birds, wind and leaves.
+              </p>
+
+              <div class="sound-demo-controls" aria-label="Demo controls">
+                <button type="button" data-sound-prev aria-label="Previous recording">‹</button>
+                <button class="is-primary" type="button" data-sound-play aria-label="Play selected recording" aria-pressed="false">▶</button>
+                <button type="button" data-sound-next aria-label="Next recording">›</button>
+              </div>
+              <input class="sound-demo-progress" type="range" min="0" max="0" value="0" step="0.1" data-sound-seek aria-label="Seek through selected recording">
+
+              <div class="sound-demo-time">
+                <span data-sound-current>00:00</span>
+                <span data-sound-duration>10:24</span>
+              </div>
+
+              <audio data-sound-audio preload="metadata"></audio>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sound-featured-section" id="featured-recordings">
+        <div class="container">
+          <div class="sound-section-header">
+            <p class="eyebrow">Featured Recordings</p>
+            <p>4 sounds from Dublin</p>
+          </div>
+
+          <div class="sound-recording-grid">
+            <article class="sound-recording-card is-active" data-sound-card data-sound-index="0">
+              <div class="sound-recording-content">
+                <p class="sound-recording-category">Parks</p>
+                <h3>St Patrick’s Park</h3>
+                <p>Version 1 – Park Ambience</p>
+                <p>Natural park ambience with birds, wind and leaves.</p>
+
+                <div class="sound-recording-meta">
+                  <button class="sound-card-play" type="button" data-sound-card-play aria-label="Play St Patrick’s Park version 1">▶</button>
+                  <span>10:24</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sound-recording-card" data-sound-card data-sound-index="1">
+              <div class="sound-recording-content">
+                <p class="sound-recording-category">Parks</p>
+                <h3>St Patrick’s Park</h3>
+                <p>Version 2 – Cathedral Bells</p>
+                <p>Park ambience with cathedral bells sounding in the distance.</p>
+
+                <div class="sound-recording-meta">
+                  <button class="sound-card-play" type="button" data-sound-card-play aria-label="Play St Patrick’s Park version 2">▶</button>
+                  <span>12:38</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sound-recording-card" data-sound-card data-sound-index="2">
+              <div class="sound-recording-content">
+                <p class="sound-recording-category">Transport</p>
+                <h3>Smithfield Luas Stop</h3>
+                <p>Transport ambience</p>
+                <p>Luas arrivals and departures, announcements, footsteps and surrounding street sounds.</p>
+
+                <div class="sound-recording-meta">
+                  <button class="sound-card-play" type="button" data-sound-card-play aria-label="Play Smithfield Luas Stop">▶</button>
+                  <span>07:42</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sound-recording-card" data-sound-card data-sound-index="3">
+              <div class="sound-recording-content">
+                <p class="sound-recording-category">Streets</p>
+                <h3>Drury Street</h3>
+                <p>Summer Evening</p>
+                <p>Evening atmosphere with conversation, passing cars and city life.</p>
+
+                <div class="sound-recording-meta">
+                  <button class="sound-card-play" type="button" data-sound-card-play aria-label="Play Drury Street summer evening">▶</button>
+                  <span>09:51</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sound-about-section">
+        <div class="container sound-about-layout">
+          <div class="sound-about-banner">
+            <p class="eyebrow">About the Project</p>
+
+            <p>
+              Sound Capsule is an interactive archive designed to preserve the
+              acoustic identity of places. Through field recording, careful
+              audio restoration and place-based storytelling, it invites
+              listeners to explore environments through listening rather than
+              only looking.
+            </p>
+          </div>
+
+          <div class="sound-preservation-banner">
+            <span>Preservation First</span>
+
+            <p>
+              Archiving the sonic identity of places so each recording remains
+              connected to memory, location and future listening.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sound-tools-section">
+        <div class="container sound-tools-row">
+          <p class="eyebrow">Technologies &amp; Tools</p>
+
+          <div class="sound-tool-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Web Audio API</span>
+            <span>Logic Pro X</span>
+            <span>Pro Tools</span>
+            <span>iZotope RX</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sound-process-section">
+        <div class="container">
+          <p class="eyebrow">Development Process</p>
+
+          <div class="sound-process-grid">
+            <article>
+              <span>01</span>
+              <h3>Field Recording</h3>
+              <p>Capturing soundscapes on location.</p>
+            </article>
+
+            <article>
+              <span>02</span>
+              <h3>Processing &amp; Editing</h3>
+              <p>Cleaning, editing and mastering the recordings.</p>
+            </article>
+
+            <article>
+              <span>03</span>
+              <h3>Metadata &amp; Tags</h3>
+              <p>Adding descriptions and context for each sound.</p>
+            </article>
+
+            <article>
+              <span>04</span>
+              <h3>Map Integration</h3>
+              <p>Connecting each recording to its location.</p>
+            </article>
+
+            <article>
+              <span>05</span>
+              <h3>Player &amp; UI</h3>
+              <p>Designing the playback experience.</p>
+            </article>
+
+            <article>
+              <span>06</span>
+              <h3>Collections</h3>
+              <p>Organising recordings by environment and theme.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Cassio Figueiredo. All rights reserved.</p>
+      <span class="footer-line" aria-hidden="true"></span>
+      <p>Designed and built with care.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
