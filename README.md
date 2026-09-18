@@ -2,6 +2,10 @@
 
 A responsive portfolio website showcasing selected work across sound design, audio post-production, field recording and multilingual audio production.
 
+## Live website
+
+[View the live Sound Engineering Portfolio](https://orangec-dev.github.io/sound-engineering-portfolio/)
+
 ## About the project
 
 This portfolio brings together projects from my professional and independent audio work, including sound design, branded content, multilingual educational audio and place-based field recordings.
