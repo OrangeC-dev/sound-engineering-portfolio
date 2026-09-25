@@ -1,12 +1,12 @@
 :root {
-  --color-bg: #0d0d0c;
-  --color-surface: #151412;
-  --color-text: #f2eee8;
-  --color-muted: #b8afa5;
-  --color-subtle: #756b62;
-  --color-accent: #c98b62;
-  --color-accent-dark: #8f5f43;
-  --color-border: rgba(242, 238, 232, 0.14);
+  --color-bg: #090A0B;
+  --color-surface: #111315;
+  --color-text: #F2F1ED;
+  --color-muted: #A5A7AA;
+  --color-subtle: #6F747A;
+  --color-accent: #5F9EA0;
+  --color-accent-dark: #5F9EA0;
+  --color-border: #24282E;
 
   --font-heading: Georgia, "Times New Roman", serif;
   --font-body: Arial, Helvetica, sans-serif;
@@ -280,17 +280,17 @@ a:focus-visible {
 }
 
 .sound-field-accent path {
-  stroke: rgba(201, 139, 98, 0.52);
+  stroke: rgba(95, 158, 160, 0.52);
   stroke-width: 1.6;
 }
 
 .sound-field-rings circle {
-  stroke: rgba(201, 139, 98, 0.18);
+  stroke: rgba(95, 158, 160, 0.18);
   stroke-width: 1;
 }
 
 .sound-field-particles circle {
-  fill: rgba(201, 139, 98, 0.52);
+  fill: rgba(95, 158, 160, 0.52);
 }
 
 .sound-field-muted {
@@ -717,7 +717,7 @@ p {
 }
 
 .button-primary:hover {
-  background: #d69b73;
+  background: #7DA5A6;
 }
 
 .button-secondary {
@@ -1173,7 +1173,7 @@ p {
   background:
     linear-gradient(
       135deg,
-      rgba(201, 139, 98, 0.12),
+      rgba(91, 141, 239, 0.12),
       rgba(21, 20, 18, 0.9)
     );
 }
@@ -1746,7 +1746,7 @@ p {
   background:
     radial-gradient(
       circle at center,
-      rgba(201, 139, 98, 0.12),
+      rgba(91, 141, 239, 0.12),
       rgba(13, 13, 12, 0.2) 34%,
       rgba(13, 13, 12, 0.9) 70%
     );
@@ -1884,7 +1884,7 @@ p {
   background:
     linear-gradient(
       135deg,
-      rgba(201, 139, 98, 0.14),
+      rgba(91, 141, 239, 0.14),
       rgba(21, 20, 18, 0.72)
     );
 }
@@ -2036,7 +2036,7 @@ p {
 }
 
 .sound-recording-card.is-active {
-  border-color: rgba(201, 139, 98, 0.65);
+  border-color: rgba(91, 141, 239, 0.65);
 }
 
 .sound-recording-content {
@@ -2187,7 +2187,7 @@ p {
   top: 6px;
   width: 20px;
   height: 20px;
-  border: 1px solid rgba(201, 139, 98, 0.9);
+  border: 1px solid rgba(91, 141, 239, 0.9);
   border-radius: 50% 50% 50% 0;
   background: var(--color-accent);
   transform: translateX(-50%) rotate(-45deg);
